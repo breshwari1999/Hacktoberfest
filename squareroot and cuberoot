@@ -1,0 +1,8 @@
+#Enter any positive number 
+#output will be squareroot and cube root of that number
+#best way to find squareroot and cuberoot of a number
+import math
+a=int(input())
+print("Number entered : ", a)
+print("Square Root of Number: ", math.sqrt(a))
+print("Cube Root of number : ", (a**(1/3)))
